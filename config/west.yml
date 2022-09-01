@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: Rollow-ZMK
       remote: barbellboards
-      revision: barbellboards/rollow
+      revision: sofle
       import: app/west.yml
   self:
     path: config
