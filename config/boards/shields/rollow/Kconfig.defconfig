@@ -1,6 +1,3 @@
-# Copyright (c) 2020 Ryan Cross
-# SPDX-License-Identifier: MIT
-
 if SHIELD_ROLLOW_LEFT
 
 config ZMK_KEYBOARD_NAME
@@ -51,11 +48,5 @@ choice LVGL_COLOR_DEPTH
 endchoice
 
 endif # LVGL
-
-if ZMK_RGB_UNDERGLOW
-
-config WS2812_STRIP
-	default y
-endif
 
 endif
