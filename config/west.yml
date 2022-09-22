@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: barbellboards
+      url-base: https://github.com/barbellboards
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
+    - name: Rollow-ZMK
+      remote: barbellboards
+      revision: sofle
       import: app/west.yml
   self:
     path: config
