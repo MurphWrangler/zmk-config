@@ -30,7 +30,6 @@
         tapping-term-ms = <150>;
         quick-tap-ms = <0>;
         flavor = "tap-preferred";
-        global-quick-tap;
         bindings = <&kp>, <&kp>;
         };
           tm: tm {
@@ -40,7 +39,6 @@
         tapping-term-ms = <150>;
         quick-tap-ms = <0>;
         flavor = "tap-preferred";
-        global-quick-tap;
         bindings = <&mo>, <&kp>;
         };
          };
