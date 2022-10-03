@@ -11,7 +11,7 @@
 #define COL   0
 #define COLL  1
 #define COLR  2
-#define COLN  3
+#define NUMBER  3
 
 / {
         behaviors {
