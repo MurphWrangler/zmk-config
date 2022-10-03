@@ -7,7 +7,7 @@ manifest:
     - name: barbellboards
       url-base: https://github.com/barbellboards
   projects:
-    - name: Rollow-ZMK
+    - name: zmk
       remote: infused-kim
       revision: sofle
       import: app/west.yml
