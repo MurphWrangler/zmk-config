@@ -117,8 +117,8 @@
  */
                          bindings = <
   &none &trans   &kp HOME    &kp UP    &kp END    &trans      &kp PLUS    &kp N7    &kp N8     &kp N9   &trans &none
-  &none &trans   &kp LEFT    &kp DOWN    &kp RIGHT    &trans      &kp MINUS  &hm RSHIFT N4    &hm RCTRL N5     &hm RALT N6   &kp SLASH &none
-  &none &trans   &trans    &kp PG_UP    &kp PG_DN    &trans      &kp STAR &kp N1    &kp N2     &kp N3   &kp DOT &none
+  &none &kp ESC   &kp LEFT    &kp DOWN    &kp RIGHT    &trans      &kp MINUS  &hm RSHIFT N4    &hm RCTRL N5     &hm RALT N6   &kp SLASH &none
+  &none &kp K_APP   &trans    &kp PG_UP    &kp PG_DN    &trans      &kp STAR &kp N1    &kp N2     &kp N3   &kp DOT &none
                        &trans    &trans   &trans      &kp EQUAL    &kp N0    &trans
                         >;
                         sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
